@@ -1,0 +1,58 @@
+:root{
+    --base:rgb(255, 238, 0);
+    --space:10px;
+    --blur:0px;
+}
+
+.container {
+    margin-top:20px;
+    text-align:center;
+}
+.title{
+    margin-top: 50px;
+    text-align: center;
+}
+.js_head{
+    color: black;
+}
+.input-blur{
+    width:150px;
+    margin-left:10px;
+}
+.blur{
+    display: flex;  
+}
+.input-space{
+    width:150px;
+    margin-left:10px;
+}
+.space{
+    display: flex;
+    
+}
+.base-color{
+    width:50px;
+    margin-left:10px;
+}
+.color{
+    display: flex;
+    
+}
+/* .img {
+    margin-top: 50px;
+    background-color:black;
+    width:80%;
+    height: 200px;
+    text-align: center;
+} */
+/* .img img{
+    padding-top: 25px;
+} */
+img{
+    padding: var(--space);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+.js_head{
+    color: var(--base);
+}
